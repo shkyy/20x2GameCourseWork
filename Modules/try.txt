@@ -1,0 +1,14 @@
+-- 20 x 2 is a game played by a human player with a computer. It is played with a dice\n
+-- The board consists of 20 blocks numbered from 1 to 20 for both players\n
+-- To start the game, you must roll a 6 on the dice\n
+-- Until a 6 is rolled, the your pawn is not allowed to enter the board and you must keep rolling the dice
+-- The actual move happens with the next dice roll after you the 6\n
+-- The moving pawn is represented by the letter "X" for both you and the computer\n
+-- Two black holes are present in blocks 7 and 14 for both players, denoted by the letter "O"\n
+-- If a player lands on a black hole, they must move back to slot 1\n
+-- The number of moves is equal to half of the dice value:
+    ~ Dice value 6 means move 3 blocks
+    ~ Dice value 4 means move 2 blocks
+    ~ Dice value 5 means move 2 blocks (0.5 is neglected)
+    ~ Dice value 1 means no moves at all\n
+-- The first player to reach or pass the 20th block will win the game
